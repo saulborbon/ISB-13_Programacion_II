@@ -33,7 +33,7 @@
             // 
             // btnOperaciones
             // 
-            this.btnOperaciones.Location = new System.Drawing.Point(112, 128);
+            this.btnOperaciones.Location = new System.Drawing.Point(121, 80);
             this.btnOperaciones.Name = "btnOperaciones";
             this.btnOperaciones.Size = new System.Drawing.Size(75, 23);
             this.btnOperaciones.TabIndex = 0;
@@ -41,13 +41,13 @@
             this.btnOperaciones.UseVisualStyleBackColor = true;
             this.btnOperaciones.Click += new System.EventHandler(this.btnOperaciones_Click);
             // 
-            // operadores
+            // EjemploOperadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(356, 225);
+            this.ClientSize = new System.Drawing.Size(318, 136);
             this.Controls.Add(this.btnOperaciones);
-            this.Name = "operadores";
+            this.Name = "EjemploOperadores";
             this.Text = "operadores";
             this.ResumeLayout(false);
 

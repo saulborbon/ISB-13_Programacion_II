@@ -27,9 +27,9 @@ namespace Unidad2_Operadores
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEdad_Click(object sender, EventArgs e)
         {
-            if (int tryParse(txtEdad.Text out int edad))
+            if (int.TryParse(txtEdad.Text, out int edad))
             {
                 if (edad >= 18)
                 {

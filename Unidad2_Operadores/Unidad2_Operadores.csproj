@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejemplos\Colores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\Colores.Designer.cs">
+      <DependentUpon>Colores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\Comparador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\Comparador.Designer.cs">
+      <DependentUpon>Comparador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\EjemplosControles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\EjemplosControles.Designer.cs">
+      <DependentUpon>EjemplosControles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejemplos\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejemplos\Colores.resx">
+      <DependentUpon>Colores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\Comparador.resx">
+      <DependentUpon>Comparador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\EjemplosControles.resx">
+      <DependentUpon>EjemplosControles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejemplos\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Unidad2_Operadores.Ejemplos;
 
 namespace Unidad2_Operadores
 {
@@ -17,7 +18,11 @@ namespace Unidad2_Operadores
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
-            Application.Run(new EjemploOperadores());
+            //Application.Run(new EjemploOperadores());
+            //Application.Run(new Comparador());
+            //Application.Run(new EjemplosControles());
+            Application.Run(new Colores());
+
         }
     }
 }

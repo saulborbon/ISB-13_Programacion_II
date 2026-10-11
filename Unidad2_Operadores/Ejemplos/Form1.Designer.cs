@@ -59,7 +59,7 @@
             this.btnEdad.TabIndex = 2;
             this.btnEdad.Text = "Mostrar Validación";
             this.btnEdad.UseVisualStyleBackColor = true;
-            this.btnEdad.Click += new System.EventHandler(this.button1_Click);
+            this.btnEdad.Click += new System.EventHandler(this.btnEdad_Click);
             // 
             // Form1
             // 
