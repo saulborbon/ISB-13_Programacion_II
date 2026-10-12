@@ -46,13 +46,13 @@
             // cambiarColorToolStripMenuItem
             // 
             this.cambiarColorToolStripMenuItem.Name = "cambiarColorToolStripMenuItem";
-            this.cambiarColorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cambiarColorToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.cambiarColorToolStripMenuItem.Text = "Cambiar Color";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 

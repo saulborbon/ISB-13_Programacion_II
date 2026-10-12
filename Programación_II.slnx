@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Tarea_Unidad2_C#/Tarea_Unidad2_C#.csproj" Id="eb08af91-79d9-4f52-8cb8-0d3a0c63df17" />
   <Project Path="Unidad1_Controles/Unidad1_Controles.csproj" Id="3eec8e00-9a69-41a4-9c84-e310b503ad81" />
   <Project Path="Unidad2_Operadores/Unidad2_Operadores.csproj" Id="6527a841-e4e9-42f5-aa0a-ae38ec6bb132" />
   <Project Path="Unidad3_MessageBox/Unidad3_MessageBox.csproj" Id="bb2f4849-3808-42c0-baf9-dcb69370ca3e" />
