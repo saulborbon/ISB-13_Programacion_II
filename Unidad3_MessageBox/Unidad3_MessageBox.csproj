@@ -55,28 +55,46 @@
     <Compile Include="Ejemplos\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejemplos\MessageBox.cs">
+    <Compile Include="Ejemplos\fmrMessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejemplos\MessageBox.Designer.cs">
-      <DependentUpon>MessageBox.cs</DependentUpon>
+    <Compile Include="Ejemplos\fmrMessageBox.Designer.cs">
+      <DependentUpon>fmrMessageBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicios Clase III\Form1.cs">
+    <Compile Include="Ejercicios Clase III\Ejercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejercicios Clase III\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Ejercicios Clase III\Ejercicio1.Designer.cs">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios Clase III\Ejercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios Clase III\Ejercicio2.Designer.cs">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios Clase III\Ejercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios Clase III\Ejercicio3.Designer.cs">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejemplos\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejemplos\MessageBox.resx">
-      <DependentUpon>MessageBox.cs</DependentUpon>
+    <EmbeddedResource Include="Ejemplos\fmrMessageBox.resx">
+      <DependentUpon>fmrMessageBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicios Clase III\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Ejercicios Clase III\Ejercicio1.resx">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios Clase III\Ejercicio2.resx">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios Clase III\Ejercicio3.resx">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

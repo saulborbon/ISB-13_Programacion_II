@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Unidad3_MessageBox.Ejercicios_Clase_III;
 
 namespace Unidad3_MessageBox
 {
@@ -16,7 +17,12 @@ namespace Unidad3_MessageBox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new frmEjemploSwitch());
+            //Application.Run(new MessageBox());
+            //Application.Run(new Ejercicio1());
+            //Application.Run(new Ejercicio2());
+            Application.Run(new Ejercicio3());
+            
         }
     }
 }

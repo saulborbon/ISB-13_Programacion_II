@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsMessageBox = System.Windows.Forms.MessageBox;
 
 namespace Unidad3_MessageBox
 {
-    public partial class Form1 : Form
+    public partial class frmEjemploSwitch : Form
     {
-        public Form1()
+        public frmEjemploSwitch()
         {
             InitializeComponent();
         }
@@ -31,25 +32,26 @@ namespace Unidad3_MessageBox
         {
             int día;
             día = Convert.ToInt32(txtDiaDeLaSemana.Text);
-      
-            switch (día)             {
-                    case 1:
-                        MessageBox.Show("Lunes");break;
-                    case 2:
-                        MessageBox.Show("Martes");break;
-                    case 3:
-                        MessageBox.Show("Miércoles");break;
-                    case 4:
-                        MessageBox.Show("Jueves");break;
-                    case 5:
-                        MessageBox.Show("Viernes");break;
-                    case 6:
-                        MessageBox.Show("Sábado");break;
-                    case 7:
-                        MessageBox.Show("Domingo");break;
-                    default:
-                        MessageBox.Show("Número de día inválido. Ingrese un número del 1 al 7.");break;
-                }
+
+            switch (día)
+            {
+                case 1:
+                    System.Windows.Forms.MessageBox.Show("Lunes"); break;
+                case 2:
+                    System.Windows.Forms.MessageBox.Show("Martes"); break;
+                case 3:
+                    System.Windows.Forms.MessageBox.Show("Miércoles"); break;
+                case 4:
+                    System.Windows.Forms.MessageBox.Show("Jueves"); break;
+                case 5:
+                    System.Windows.Forms.MessageBox.Show("Viernes"); break;
+                case 6:
+                    System.Windows.Forms.MessageBox.Show("Sábado"); break;
+                case 7:
+                    System.Windows.Forms.MessageBox.Show("Domingo"); break;
+                default:
+                    System.Windows.Forms.MessageBox.Show("Número de día inválido. Ingrese un número del 1 al 7."); break;
+            }
         }
     }
 }

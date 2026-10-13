@@ -1,6 +1,6 @@
 ﻿namespace Unidad3_MessageBox
 {
-    partial class Form1
+    partial class frmEjemploSwitch
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -60,7 +60,7 @@
             this.lblDiaDeLaSemana.Text = "Ingrese el día de la semana";
             this.lblDiaDeLaSemana.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // frmEjemploSwitch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -68,8 +68,8 @@
             this.Controls.Add(this.lblDiaDeLaSemana);
             this.Controls.Add(this.txtDiaDeLaSemana);
             this.Controls.Add(this.btnDiaDeLaSemana);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmEjemploSwitch";
+            this.Text = "Ejemplo Switch";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

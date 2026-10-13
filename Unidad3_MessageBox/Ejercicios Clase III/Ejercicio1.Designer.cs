@@ -1,6 +1,6 @@
 ﻿namespace Unidad3_MessageBox.Ejercicios_Clase_III
 {
-    partial class Form1
+    partial class Ejercicio1
     {
         /// <summary>
         /// Required designer variable.
@@ -31,6 +31,8 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtOpcion = new System.Windows.Forms.TextBox();
+            this.btnSeleccionar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -63,11 +65,30 @@
             this.label1.Text = "Seleccione una opción";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // txtOpcion
+            // 
+            this.txtOpcion.Location = new System.Drawing.Point(57, 107);
+            this.txtOpcion.Name = "txtOpcion";
+            this.txtOpcion.Size = new System.Drawing.Size(149, 20);
+            this.txtOpcion.TabIndex = 3;
+            // 
+            // btnSeleccionar
+            // 
+            this.btnSeleccionar.Location = new System.Drawing.Point(212, 105);
+            this.btnSeleccionar.Name = "btnSeleccionar";
+            this.btnSeleccionar.Size = new System.Drawing.Size(75, 23);
+            this.btnSeleccionar.TabIndex = 4;
+            this.btnSeleccionar.Text = "Select";
+            this.btnSeleccionar.UseVisualStyleBackColor = true;
+            this.btnSeleccionar.Click += new System.EventHandler(this.btnSeleccionar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 306);
+            this.ClientSize = new System.Drawing.Size(344, 150);
+            this.Controls.Add(this.btnSeleccionar);
+            this.Controls.Add(this.txtOpcion);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTitulo);
@@ -83,5 +104,7 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtOpcion;
+        private System.Windows.Forms.Button btnSeleccionar;
     }
 }
