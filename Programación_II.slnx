@@ -3,4 +3,5 @@
   <Project Path="Unidad1_Controles/Unidad1_Controles.csproj" Id="3eec8e00-9a69-41a4-9c84-e310b503ad81" />
   <Project Path="Unidad2_Operadores/Unidad2_Operadores.csproj" Id="6527a841-e4e9-42f5-aa0a-ae38ec6bb132" />
   <Project Path="Unidad3_MessageBox/Unidad3_MessageBox.csproj" Id="bb2f4849-3808-42c0-baf9-dcb69370ca3e" />
+  <Project Path="Unidad4_POO/Unidad4_POO.csproj" Id="1e1bc136-4ca0-477e-9b48-950f360fbb78" />
 </Solution>
